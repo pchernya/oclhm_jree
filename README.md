@@ -1,4 +1,4 @@
-# ochl_jree
+# ochlm_jree
 Ordinal Cumulative Logit Hurdle Model (OCLHM) 
 
 This is a code repository for the Journal of Research on Educational Effectiveness (JREE) article titled "Addressing Uncodable Behaviors: a Bayesian Ordinal Mixture Model Applied to a Mathematics Learning Trajectory Teaching Experiment" (2023) by P Chernyavskiy, TS Kutaka, C Keeter, J Sarama, and DH Clements. Link to published article: 
