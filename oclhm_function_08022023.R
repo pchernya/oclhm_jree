@@ -440,17 +440,7 @@ stan_sum <- function(model, pars){
   # assign labels to ICCs
   colnames(icc_sum)<-row.names(model_sum)[(from+nrow(rand.eff)+1):to] %>% substring(4)
 
-  # collect output to report when estimation is done
-#  J_effects<-NA
-#  for(i in 1:nrow(rand.eff)){ 
-#    J_effects[i]<-paste("standat_Model$J_",i,sep="")
-#  }
-#  J_effects <- paste(J_effects, collapse = ",")
-#  J_effects <- noquote(J_effects)
   data_used<- data.frame(standat_Model$X,Y=standat_Model$Y)
-                         #standat_Model$J_1,standat_Model$J_2,
-                         #J_effects
-  
   output <- list(
     Post_Summary = round(model_sum, 3), 
     Intra_Class_Corr = round(icc_sum, 3),
