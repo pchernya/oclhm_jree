@@ -1,11 +1,11 @@
-setwd("C:/Users/pcher/Dropbox/TK_PC/Length-Measurement/Hurdle model")
+setwd("C:/Users/.../Hurdle model")
 library(readxl)
 library(data.table)
 library(dplyr)
 library(readr)
 library(ordinal)
 
-D_det<-read_csv("LT_length_data.csv")
+# D_det<-read_csv("LT_length_data.csv") #<-cannot yet provide
 
 ### recast variables as factors ###
 D_det$SID<-as.factor(D_det$SID)
