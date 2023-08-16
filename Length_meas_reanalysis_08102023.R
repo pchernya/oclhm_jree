@@ -139,8 +139,3 @@ plot(Student_soph ~ Student_det,
      xlab='Latent detection', 
      ylab='Latent sophistication after detection')
 abline(v=0,h=0,lty=2,col='green',lwd=2)
-
-## Cluster evaluation of Item effects (did not find any) ##
-#library(mclust)
-#items<-data.frame(item_det,item_soph)
-#clust1<-Mclust(items)
