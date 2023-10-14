@@ -7,7 +7,7 @@ A short guide to implementation is contained in the article's Appendix. The cont
 - oclhm_function_08022023.R (Main estimation and fitted values functions)
 - Length_meas_reanalysis_08102023.R (R code used for analysis)
 
-All code is based on the initial versoin of the estimation function created by @CarsonLKeeter (https://github.com/CarsonLKeeter/Learning-Trajectories-Length-Measurement-Analysis-2021).
+All code is based on the initial version created by @CarsonLKeeter (https://github.com/CarsonLKeeter/Learning-Trajectories-Length-Measurement-Analysis-2021).
 
 Regrettably, we cannot yet provide the data used in the article due to a mandatory embargo. We intend to make the data available when the embargo period ends.
 
